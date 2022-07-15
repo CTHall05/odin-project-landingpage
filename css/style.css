@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+}
+
+/* Global Rules */
+
+li {
+    list-style: none;
+}
+
+/* ============ */
+
+/* Header Section */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: orange; 
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+/* ============ */
+
+/* Action Section / Sign up */
+
+.action-content {
+    padding: 50px;
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    background-color: orangered;
+}
+
+.call-to-action {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 400px;
+    min-width: 100px;
+}
+
+.sign-up {
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: yellow;
+    color: #333;
+}
+
+.main-image {
+    max-width: 450px;
+    display: flex;
+    flex: 1;
+    border: solid grey 5px;
+    border-radius: 5px;
+}
+
+/* Production / Company Information Section */
+
+.information-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+}
+
+.information-content h2 {
+    font-size: 30px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+}
+
+.product-image-descr {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 250px;
+    flex: 1;
+    text-align: center;
+}
+
+.product-image-descr img {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    border: solid orangered;
+}
