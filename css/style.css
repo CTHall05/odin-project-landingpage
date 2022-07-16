@@ -122,3 +122,41 @@ li {
     height: 300px;
     font-size: 25px;
 }
+
+/* Sign up Section */
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.sign-up-div {
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.sign-up-div button {
+    width: 125px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: aqua;
+    border: solid 3px #333;
+}
+
+/* ============= */
+
+/* Footer Section */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: aqua;
+}
+
+/* ============= */
